@@ -1,0 +1,313 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+%%%  Syllabus template for use with style files at http://kjhealy.github.com/latex-custom-kjh
+%%%  Kieran Healy
+
+\documentclass[11pt,article,oneside]{memoir}
+
+% packages
+\usepackage{org-preamble-xelatex}
+\usepackage{wallpaper}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*}
+
+\AtBeginBibliography{\small}
+
+% Definitions
+\def\myauthor{Author}
+\def\mytitle{Title}
+\def\mycopyright{\myauthor}
+\def\mykeywords{}
+\def\mybibliostyle{plain}
+\def\mybibliocommand{}
+\def\mysubtitle{}
+\def\myaffiliation{Louisiana State University}
+\def\myaddress{309 Design}
+\def\myemail{baharmon@lsu.edu} 
+\def\myweb{https://baharmon.github.io/}
+\def\myphone{919.622.8414}
+\def\myversion{}
+\def\myrevision{}
+\def\myaffiliation{\ \\Louisiana State University}
+\def\myauthor{Brendan Harmon}
+\def\mykeywords{Doctor of Design, Syllabus, Graduate}
+\def\mysubtitle{Syllabus}
+\def\mytitle{ \includegraphics[width=6cm]{../images/logos/lsu_art_design_logo.pdf} \\[0.1cm] {\normalfont \normalsize DART 7003 |} \Large Digital Culture} 
+
+% color
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\global\let\default@color\current@color
+}
+\makeatother
+
+% begin
+\begin{document}
+
+\setlength\bibitemsep{0.75em}
+
+% fonts
+\defaultfontfeatures{}
+\defaultfontfeatures{Scale=MatchLowercase}         
+\setmainfont[Scale=1, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
+\setsansfont[Scale=1, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
+\setmonofont[Mapping=tex-text,Scale=0.8,Path = fonts/inconsolata/]{i}
+
+\def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
+\def\labelitemi{$\cdot$}
+\chapterstyle{article-4-sans}  
+
+\title{\LARGE \mytitle}
+\author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
+\date{Fall 2018. Design 307.\newline Thursday 6:00pm--9:00pm.}
+\published{\,}
+
+% -------------------------------- COVER PAGE -------------------------------- 
+
+\pagenumbering{gobble}
+\globalcolor{black}
+\vspace*{-10em}
+\maketitle
+\ThisCenterWallPaper{1}{../images/parametric_bench/parametric_bench_4.png} 
+\clearpage
+
+% -------------------------------- DESCRIPTION -------------------------------- 
+
+\pagenumbering{arabic}
+\globalcolor{black}
+
+\vspace*{-10em}
+\maketitle
+
+\section{Course Description}
+%
+This course will explore 
+how digital culture and fabrication
+are changing the nature of authorship
+and production in art and design.
+%
+In seminars we will discuss
+cultural, technological, theoretical and ethical changes
+-- focusing on polyvalent authorship -- 
+and in workshops you will experiment 
+with digital methods
+including programming, 3D modeling, robotics,
+and computer numerical controlled (CNC) machining.
+%
+You will put theory into practice
+by writing scripts that write poems 
+and using digital fabrication
+to give your poems physical form.
+You will collect your work 
+in an online repository with version control
+and present it at a exhibition
+in the College of Art and Design.\\
+
+% -------------------------------- SCHEDULE -------------------------------- 
+\section{Topics}
+%
+\begin{table}[H]
+\begin{tabular}{l l @{\hskip 2cm} l l}
+\small
+\vspace*{0.25cm}
+& \textbf{Open culture} && \textbf{Digital humanities} \\
+\textbf{1} & Open source & \textbf{5} & Digital humanities \\
+\textbf{2} & Open work & \textbf{6} & Topic modeling \\
+\textbf{3} & Open science & \textbf{7} & Digital poetry \\
+\textbf{4} & Death of the Author & \textbf{8} & Sonic art \\
+\\
+\vspace*{0.25cm}
+& \textbf{Generative design} && \textbf{Digital fabrication} \\
+\textbf{9} & Death of the architect & \textbf{13} & Digital fabrication \\
+\textbf{10} & Automation \& fabrication & \textbf{14} & Assembly\\
+ \textbf{11} & Digital design & \textbf{15} & Exhibition\\
+ \textbf{12} & Robotic art\\
+%
+\end{tabular}
+\end{table}
+
+\clearpage
+
+% -------------------------------- SCHEDULE -------------------------------- 
+\section{Course Schedule}
+
+\begin{table}[H]
+\begin{tabular}{l r @{\hskip 0.1cm} l r}
+\\
+\normalsize
+\textbf{Open culture} & Poetry Repository\\
+\small
+\\
+08.23.2018 & \textbf{Open source +} & \emph{Python:} Hello World \\
+08.30.2018 & \textbf{Open work +} & \emph{Python:} Lists \& loops \\
+09.06.2018 & \textbf{Open science +} & \emph{Python:} Dictionaries \& data \\
+09.13.2018 & \textbf{Death of the author +} & \emph{Python:} Flow control \\
+\\
+\normalsize
+\textbf{Humanities} & Poetry Generator\\
+\small
+\\
+09.20.2018 & \textbf{Digital humanities +} & Resources  & Lauren Coates \\
+09.27.2018 & \textbf{Topic modeling +} & Topic modeling & Lauren Coates \\
+10.04.2018 & \textbf{Digital poetry +} & Poetry charette & Lara Glenum \\ % Death of the poet
+10.11.2018 & \textbf{Sonic art +} & Poetry recordings & Jesse Allison \\ 
+\\
+\normalsize
+\textbf{Art \& Design} & Poetry Model \\
+\small
+\\
+10.18.2018 & \textbf{Death of the architect +} & \emph{Rhino:}  Waveforms \\
+10.25.2018 & \textbf{Automation +} & \emph{Rhino:} Freeform modeling \\
+11.01.2018 & \textbf{Digital design +} & \emph{Rhino:} Parametric modeling \\
+11.08.2018 & \textbf{Robotic Art +} & Arduino & Hye Yeon Nam \\
+\\
+\normalsize
+\textbf{Fabrication} & Poetry Fabrication\\
+\small
+\\
+11.15.2018 & \textbf{Digital fabrication} \\
+11.22.2018 & \textbf{Assembly} \\
+11.29.2018 & \textbf{Exhibition} \\ 
+%
+\end{tabular}
+\end{table}
+
+\clearpage
+
+% -------------------------------- Paper -------------------------------- 
+%\section{Paper}
+%\noindent \textbf{The Alphabet and Algorithm}
+%Read Mario Carpo's book \emph{The Alphabet and Algorithm}
+%and write a 2000-word critical essay about
+%the evolving nature of architectural authorship.
+%Address how digital tools have transformed 
+%the practice of landscape architecture
+%and envision how they will shape 
+%the future of the discipline. 
+%
+%%\noindent In preparation for this course please read:
+%\nocite{*} \printbibliography[keyword=intro, heading=none]
+
+% overleaf
+
+% -------------------------------- Projects -------------------------------- 
+\section{Projects}
+Through this series of projects
+explore how digital culture and fabrication
+are changing the nature of authorship
+and production. 
+%Write scripts that write poems
+%and then give your poems physical form.
+%Collect, manage, and curate your work 
+%in an online repository with version control. 
+\\
+
+\noindent \textbf{Poetry Repository}
+Develop a GitHub repository with 
+a Markdown manifesto or artist's statement,
+Python scripts for generating poetry,
+Rhino 3D model, 3D renderings,
+and g-code for CNC milling. \\
+
+\noindent \textbf{Poetry Generator}
+Develop a Python script that generates poetry.
+Have fun and express yourself as a meta-author! \\
+
+\noindent \textbf{Poetry Model}
+Capture a series of waveforms from your poems,
+generate a 3D model from the waveforms,
+and cut the model into slices for digital fabrication. 
+Laser-cut the slices to build a small prototype 
+of your physical poem. \\
+% 3D printing
+
+\noindent \textbf{Poetry Fabrication}
+CNC mill the slices out of sheets of birch plywood 
+and then assemble and bond the slices
+to build your physical poem. 
+Setup an exhibition showcasing your algorithmic poetry. \\
+% Another year: Poetry Robots
+
+\includegraphics[width=\textwidth]{../images/parametric_bench/parametric_bench_2.png}
+
+%\begin{centering}
+%\includegraphics[width=0.76\textwidth]{../images/parametric_bench/parametric_bench_2.png}\\
+%\includegraphics[width=0.70\textwidth]{../images/parametric_bench/parametric_bench_3.png}\\
+%\end{centering}
+%\clearpage
+
+% -------------------------------- Grading -------------------------------- 
+\section{Grading}
+%
+\begin{table}[H]
+%\small
+\begin{tabular}{l r @{\hskip 2.5cm} l r}
+%
+Poetry Repository & 25\% & 
+Poetry Generator & 25\% \\
+Poetry Model & 25\% &
+Poetry Fabrication & 25\% \\
+%
+\end{tabular}
+\end{table}
+
+\clearpage
+
+% -------------------------------- Software -------------------------------- 
+\section{Software}
+\begin{multicols}{2}
+\raggedright
+Python | \url{https://www.python.org/}\\
+Anaconda | \url{https://www.anaconda.com/}\\
+Rhinoceros | \url{https://www.rhino3d.com/}\\
+Grasshopper | \url{http://grasshopper3d.com/}\\
+\end{multicols}
+
+% -------------------------------- Resources -------------------------------- 
+\section{Resources}
+Google Python Class | \url{https://developers.google.com/edu/python/}\\
+GitHub Guides | \url{https://guides.github.com/}\\
+Rhino Tutorials | \url{https://vimeo.com/rhino}\\
+Grasshopper Primer | \url{http://grasshopperprimer.com}\\
+% Python text generator | % Recording
+
+\clearpage
+
+% -------------------------------- Readings -------------------------------- 
+\section{Readings}
+\renewcommand*{\bibfont}{\normalsize} %\small
+\vspace*{0.5cm}
+\nocite{*}
+\setlength\bibitemsep{1\baselineskip}
+\printbibliography[heading=none]
+
+\clearpage
+% -------------------------------- Policies -------------------------------- 
+\section{Policies}
+
+\noindent \textbf{Time Commitment Expectations}
+LSU's general policy states that for each credit hour, you (the student) should plan to
+spend at least two hours working on course related activities outside of class. Since this course is for three credit hours, you should expect to spend a minimum of six hours outside of class each week working on assignments for this course. For more information see: 
+\url{http://catalog.lsu.edu/content.php?catoid=12&navoid=822}.\\
+
+\noindent \textbf{LSU student code of conduct}
+The LSU student code of conduct explains student rights, excused absences, and what is expected of student behavior. Students are expected to understand this code:  \url{http://students.lsu.edu/saa/students/code}.\\ %Any violations of the LSU student code will be duly reported to the Dean of Students.\\
+
+\noindent \textbf{Disability Code}
+The University is committed to making reasonable efforts to assist individuals with disabilities in
+their efforts to avail themselves of services and programs offered by the University. To this end,
+Louisiana State University will provide reasonable accommodations for persons with
+documented qualifying disabilities. If you have a disability and feel you need accommodations in
+this course, you must present a letter to me from Disability Services in 115 Johnston Hall,
+indicating the existence of a disability and the suggested accommodations.\\
+
+\noindent \textbf{Academic Integrity}
+According to section 10.1 of the LSU Code of Student Conduct, ``A student may be charged with Academic Misconduct'' for a variety of offenses, including the following: unauthorized copying, collusion, or collaboration; ``falsifying'' data or citations; ``assisting someone in the commission or attempted commission of an offense''; and plagiarism, which is defined in section 10.1.H as a ``lack of appropriate citation, or the unacknowledged inclusion of someone else's words, structure, ideas, or data; failure to identify a source, or the submission of essentially the same work for two assignments without permission of the instructor(s).''\\
+
+\noindent \textbf{Plagiarism and Citation Method}
+Plagiarism is the ``lack of appropriate citation, or the unacknowledged inclusion of someone else's words, structure, ideas, or data; failure to identify a source, or the submission of essentially the same work for two assignments without permission of the instructor(s)'' (Sec. 10.1.H of the LSU Code of Student Conduct). As a student at LSU, it is your responsibility to refrain from plagiarizing the academic property of another and to utilize appropriate citation method for all coursework. In this class, it is recommended that you use Chicago Style author-date citations. Ignorance of the citation method is not an excuse for academic misconduct.
+
+\end{document}
