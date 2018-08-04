@@ -2,7 +2,7 @@
 
 # Digital culture seminar
 
-<p align="center"><img src="images/parametric_bench/parametric_bench_4.png"></p>
+<p align="center"><img src="images/parametric_bench/parametric_bench_1.png"></p>
 
 **Digital Culture Seminar**
 This course will explore
