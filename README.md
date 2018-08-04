@@ -4,11 +4,11 @@
 
 <p align="center"><img src="images/parametric_bench/parametric_bench_4.png"></p>
 
+**Digital Culture Seminar**
 This course will explore
 how digital culture and fabrication
 are changing the nature of authorship
 and production in art and design.
-
 In seminars we will discuss
 cultural, technological, theoretical and ethical changes -
 focusing on polyvalent authorship -
@@ -16,7 +16,6 @@ and in workshops you will experiment
 with digital methods
 including programming, 3D modeling, robotics,
 and computer numerical controlled (CNC) machining.
-
 You will put theory into practice
 by writing scripts that write poems
 and using digital fabrication
