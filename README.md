@@ -76,6 +76,7 @@ in the College of Art and Design.
     1. Exhibition
 
 **Project** | [Poetry fabrication](projects.md#poetry-fabrication)
+
 ---
 
 ## License
