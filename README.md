@@ -2,7 +2,7 @@
 
 # Digital culture seminar
 
-<p align="center"><img src="images/parametric_bench/parametric_bench_4.png" height="500"></p>
+<p align="center"><img src="images/parametric_bench/parametric_bench_4.png"></p>
 
 This course will explore
 how digital culture and fabrication
