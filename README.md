@@ -2,8 +2,29 @@
 
 # Digital culture seminar
 
+<p align="center"><img src="images/parametric_bench/parametric_bench_4.png" height="500"></p>
 
-...
+This course will explore
+how digital culture and fabrication
+are changing the nature of authorship
+and production in art and design.
+
+In seminars we will discuss
+cultural, technological, theoretical and ethical changes -
+focusing on polyvalent authorship -
+and in workshops you will experiment
+with digital methods
+including programming, 3D modeling, robotics,
+and computer numerical controlled (CNC) machining.
+
+You will put theory into practice
+by writing scripts that write poems
+and using digital fabrication
+to give your poems physical form.
+You will collect your work
+in an online repository with version control
+and present it at a exhibition
+in the College of Art and Design.
 
 **Objectives**
 * Programming for artists and designers
@@ -27,30 +48,35 @@
 ## Sessions
 
 1. **Open culture**
-    1. Open source
-    1. Open work
-    1. Open science
-    1. Death of the Author
+    1. Open source + *Python: Hello World*
+    1. Open work + *Python: lists & loops*
+    1. Open science + *Python: dictionaries and data*
+    1. Death of the Author + *Python: flow control*
 
 **Project** | [Poetry repository](projects.md#poetry-repository)
 
 1. **Digital humanities**
-    1. Digital humanities
-    1. Topic modeling
-    1. Data science
-    1. Cultural contingency
+    1. Digital humanities + *Tools & resources*
+    1. Topic modeling + *Topic modeling tools*
+    1. Digital poetry + *Poetry charrette*
+    1. Sonic art + *Poetry recordings*
 
 **Project** | [Poetry generator](projects.md#poetry-generator)
 
 1. **Generative art & design**
-    1. Death of the Architect
-    1. Automation & fabrication
-    1. Digital design
-    1. Autonomous art
-    1. Robotic art
+    1. Death of the Architect + *Rhino: waveforms*
+    1. Automation + *Rhino: freeform modeling*
+    1. Digital design + *Rhino: parametric modeling*
+    1. Robotic art + *Arduino*
+
+**Project** | [Poetry model](projects.md#poetry-model)
+
+1. **Digital fabrication**
+    1. Digital fabrication
+    1. Assembly
+    1. Exhibition
 
 **Project** | [Poetry fabrication](projects.md#poetry-fabrication)
-
 ---
 
 ## License

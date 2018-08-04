@@ -13,6 +13,7 @@
 
 ## Digital humanities
 * Eitan Wilf, [Sociable robots, jazz music, and divination](https://doi.org/10.1111/amet.12041)
+* Donna Haraway, [A manifesto for cyborgs: Science, technology, and socialist feminism in the 1980s](https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf)
 
 ## Generative art & design
 * Mario Carpo, *The Alphabet and Algorithm*
@@ -22,13 +23,24 @@
 
 # Recommended
 
+## Poetry
+* Stéphane Mallarmé, *A Roll of the Dice*
+
+## Fiction
+* J.G. Ballard, *Cloud Sculptors of Coral D*
+* William Gibson, *Neuromancer*
+* Tsutomu Nihei, *Blame!*
+
 ## Cinema
 * Ridley Scott, *Blade Runner*
 & Giuliana Bruno's [Ramble City](www.jstor.org/stable/778330)
 * Mamoru Oshii, *Ghost in the Shell*
 * Alex Garland, *Ex Machina*
 
-## Fiction
-* J.G. Ballard, *Cloud Sculptors of Coral D*
-* William Gibson, *Neuromancer*
-* Tsutomu Nihei, *Blame!*
+## Architecture
+* dECOi Architects, [One Main](http://www.decoi-architects.org/2011/10/onemain/), Boston, MA, USA
+
+## Art
+* Jean Tinguely, [Machine à dessiner](https://www.tinguely.ch/en/sammlung/sammlung.html?period=&material=&detail=795301f4-443e-44b7-94c9-c87f236acff8)
+& [Méta-Matic](https://www.tinguely.ch/en/sammlung/sammlung.html?period=&material=&detail=ac19747d-dc9b-411a-9b88-c33b4717cfd9)
+* François Delarozier, [Les Machines de l’île](https://www.lesmachines-nantes.fr/en/), Nantes, France
