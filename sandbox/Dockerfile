@@ -1,11 +1,18 @@
-FROM jupyter/scipy-notebook:df7a34bebed0
+FROM ubuntu:16.04
 
 MAINTAINER Brendan Harmon <brendan.harmon@gmail.com>
 
-USER root
-
 # system environment
 ENV DEBIAN_FRONTEND noninteractive
+
+# compile jupyter
+RUN apt-get update \
+    && apt-get install -y \
+      python-pip \
+    && apt-get autoremove \
+    && apt-get clean
+RUN python -m pip install --upgrade pip
+RUN python -m pip install jupyter
 
 # copy jupyter notebook
 RUN mkdir /data
