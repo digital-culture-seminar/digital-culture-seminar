@@ -17,9 +17,12 @@ RUN python -m pip install --upgrade pip
 RUN python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose ggplot
 
 # compile latex
-RUN apt-get install texlive-full
-RUN apt-get install texmaker
-RUN apt-get install git-core
+RUN apt-get update \
+    && apt-get install -y texlive-full \
+    && apt-get install -y texmaker \
+    && apt-get install -y git-core \
+    && apt-get autoremove \
+    && apt-get clean
 
 # copy jupyter notebook
 RUN mkdir /data
