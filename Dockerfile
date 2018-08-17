@@ -7,6 +7,9 @@ USER root
 # system environment
 ENV DEBIAN_FRONTEND noninteractive
 
+# switch to python 2 conda environment
+source activate python2
+
 # copy jupyter notebook
 RUN mkdir /data
 WORKDIR /data
