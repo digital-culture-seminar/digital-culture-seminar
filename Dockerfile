@@ -10,7 +10,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # copy jupyter notebook
 RUN mkdir /data
 WORKDIR /data
-COPY myfirstnotebook.ipynb .
+COPY hello-world.ipynb .
 
 # create a user
 RUN useradd -m -U jovian
