@@ -22,9 +22,6 @@ RUN apt-get install texlive-full
 RUN apt-get install texmaker
 RUN apt-get install git-core
 
-# compile r
-apt-get install r-base
-
 # copy jupyter notebook
 RUN mkdir /data
 WORKDIR /data
