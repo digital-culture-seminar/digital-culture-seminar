@@ -35,7 +35,8 @@ in the College of Art and Design.
 **Syllabus** |
 [2018](digital-culture-syllabus-2018.pdf)
 
-**Assignments** | [Projects](projects.md) | [Readings](readings.md)
+**Assignments** | [Projects](projects.md) | [Readings](readings.md) |
+[Jupyter Notebooks](https://mybinder.org/v2/gh/baharmon/digital-culture-seminar/master)
 
 **Software** |
 [Python](https://www.python.org/) |

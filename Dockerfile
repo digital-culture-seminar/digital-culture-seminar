@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:df7a34bebed0
+FROM jupyter/scipy-notebook:latest
 
 MAINTAINER Brendan Harmon <brendan.harmon@gmail.com>
 
