@@ -17,7 +17,6 @@ RUN python -m pip install --upgrade pip
 RUN python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose ggplot
 
 # compile latex
-RUN apt-get install haskell-platform
 RUN apt-get install texlive-full
 RUN apt-get install texmaker
 RUN apt-get install git-core
