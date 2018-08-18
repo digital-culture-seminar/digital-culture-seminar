@@ -48,7 +48,7 @@ in the College of Art and Design.
 ## Sessions
 
 1. **Open culture**
-    1. Open source + *Python: Hello World*
+    1. Open source + [*Python: Hello World*](hello-world.md)
     1. Open work + *Python: lists & loops*
     1. Open science + *Python: dictionaries and data*
     1. Death of the Author + *Python: flow control*

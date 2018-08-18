@@ -14,7 +14,7 @@ RUN apt-get update \
     && apt-get autoremove \
     && apt-get clean
 RUN python -m pip install --upgrade pip
-RUN python -m pip install numpy scipy matplotlib ipython jupyter jupyterthemes pandas sympy nose ggplot
+RUN python -m pip install numpy scipy matplotlib ipython jupyter jupyterthemes pandas sympy nose ggplot markovify lorem
 
 # copy jupyter notebook
 RUN mkdir /data
