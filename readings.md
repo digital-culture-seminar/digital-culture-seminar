@@ -1,7 +1,8 @@
 # Readings
 
 ## Open culture
-* Umberto Eco, *Open Work*
+* Umberto Eco, *Open Work* | [The Poetics of the Open Work](/readings/poetics-of-open-work.pdf)
+* Clement Greenberg, [Avant-Garde and Kitsch](avant-garde-and-kitsch.pdf) & Umberto Eco, *Open Work* | [The Structure of Bad Taste](/readings/structure-of-bad-taste.pdf)
 * Kieran Healy, [The Plain Person’s Guide to Plain Text Social Science](http://plain-text.co/)
 * Jon Tennant & Ross Mounce, [Open Research Glossary](http://www.righttoresearch.org/resources/OpenResearchGlossary/)
 * Dan Gezelter, [What exactly is Open Science?](http://openscience.org/what-exactly-is-open-science/)
