@@ -1,3 +1,4 @@
+
 # Readings
 
 ## Open culture
@@ -22,7 +23,13 @@
 * Bohnacker, Gross, & Laub, [Generative Design](http://www.generative-gestaltung.de/)
 * Carlo Ratti et al., [Open Architecture Manifesto](http://senseable.mit.edu/osarc/2011_Ratti_et_al_OSArc_DOMUS.pdf) | [Html](https://www.domusweb.it/en/opinion/2011/06/15/open-source-architecture-osarc-.html) | [Robot](https://www.dezeen.com/2012/10/16/open-source-architecture-manifesto-by-walter-nicolino-and-carlo-ratti/)
 
-# Recommended
+# Resources
+
+## Markdown
+* [Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown Editor](https://jbt.github.io/markdown-editor/)
+
+# Recommended culture
 
 ## Poetry
 * Stéphane Mallarmé, *A Roll of the Dice*

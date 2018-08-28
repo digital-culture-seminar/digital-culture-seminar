@@ -19,7 +19,7 @@ RUN python -m pip install numpy scipy matplotlib ipython jupyter jupyterthemes p
 # copy jupyter notebook
 RUN mkdir /data
 WORKDIR /data
-COPY hello-world.ipynb .
+COPY *.ipynb .
 
 # create a user
 RUN useradd -m -U jovyan
