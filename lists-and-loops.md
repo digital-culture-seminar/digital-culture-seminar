@@ -26,15 +26,47 @@ import random
 random.seed()
 
 # lists of words
-nouns = ["emjoi", "unicorn", "sloth", "robot", "alien", "lolcat", "python",
-    "bug", "flying saucer", "moon", "sorcerors apprentice"]
-verbs = ["laughed out loud", "rolled on the floor laughing", "slept", "read",
-  "declaimed", "roared", "glittered"]
-adjectives = ["giant", "raucous", "playful", "sparkling", "sleepy", "scornful",
-    "arrogant", "stealthy", "mechanical", "magical", "ancient"]
-adverbs = ["loudly", "silently", "playfully", "sneakily", "proudly",
-    "tearfully", "mindfully", "boldly", "gently", "disdainfully",
-    "daintily", "patiently"]
+nouns = ["emjoi",
+    "unicorn",
+    "sloth",
+    "robot",
+    "alien",
+    "lolcat",
+    "python",
+    "bug",
+    "flying saucer",
+    "moon",
+    "sorcerors apprentice"]
+verbs = ["laughed out loud",
+    "rolled on the floor laughing",
+    "slept",
+    "read",
+    "declaimed",
+    "roared",
+    "glittered"]
+adjectives = ["giant",
+    "raucous",
+    "playful",
+    "sparkling",
+    "sleepy",
+    "scornful",
+    "arrogant",
+    "stealthy",
+    "mechanical",
+    "magical",
+    "ancient"]
+adverbs = ["loudly",
+    "silently",
+    "playfully",
+    "sneakily",
+    "proudly",
+    "tearfully",
+    "mindfully",
+    "boldly",
+    "gently",
+    "disdainfully",
+    "daintily",
+    "patiently"]
 
 # select random words from lists
 noun = random.choice(nouns)
