@@ -1,3 +1,9 @@
+# Contents
+1. [**Lists and loops**](#lists-and-loops)
+    1. [Lists](#lists)
+    1. [Loops](#loops)
+    1. [Towards a poem](#towards-a-poem)
+
 # List and Loops
 Today we will use **print statements**, **variables**,
 **randomness**, **lists**, and **loops**
