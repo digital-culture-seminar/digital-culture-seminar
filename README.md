@@ -1,4 +1,5 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/baharmon/digital-culture-seminar/master)
 
 # Digital culture seminar
 
@@ -49,9 +50,9 @@ in the College of Art and Design.
 
 1. **Open culture**
     1. Open source + [*Python: Hello World*](hello-world.md)
-    1. Open work + *Python: lists & loops*
-    1. Open science + *Python: dictionaries and data*
-    1. Death of the Author + *Python: flow control*
+    1. Open work + [*Python: lists & loops*](lists-and-loops.md)
+    1. Open science + *Python: flow control*
+    1. Death of the Author + *Python: Markov chains*
 
 **Project** | [Poetry repository](projects.md#poetry-repository)
 
