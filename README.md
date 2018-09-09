@@ -51,7 +51,7 @@ in the College of Art and Design.
 1. **Open culture**
     1. Open source + [*Python: Hello World*](hello-world.md)
     1. Open work + [*Python: lists & loops*](lists-and-loops.md)
-    1. Open science + *Python: flow control*
+    1. Open science + [*Python: flow control*](flow-control.md)
     1. Death of the Author + *Python: Markov chains*
 
 **Project** | [Poetry repository](projects.md#poetry-repository)
