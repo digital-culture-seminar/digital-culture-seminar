@@ -16,6 +16,14 @@ a Markdown manifesto or artist's statement,
 Python scripts for generating poetry,
 Rhino 3D model, 3D renderings,
 and g-code for CNC milling.
+Write your manifesto or artist's statement in your README.md file.
+It should describe your ideas for your poetry generator and the resulting poems.
+Write about what you would like to achieve, your inspirations, your approach,
+and what you would like to try next. Consider including snippets of code and
+some of the best or worst poems your poetry generator has produced.
+Create this repository in the
+[Digital Culture Seminar](https://github.com/digital-culture-seminar)
+organization.
 
 ## Poetry Generator
 Develop a Python script that generates poetry.
