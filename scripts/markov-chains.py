@@ -12,48 +12,6 @@ COPYRIGHT:  GNU General Public License v2.
 import markovify 
 
 """
-Generate text from Mallarme's A Roll of the Dice
-"""
-# get raw text as string
-with open("../readings/mallarme-a-roll-of-the-dice.txt") as f:
-    text = f.read()
-
-# build the model
-text_model = markovify.NewlineText(text) #text_model = markovify.Text(text)
-
-# print three randomly-generated sentences of no more than 140 characters
-for i in range(3):
-    print text_model.make_short_sentence(140)
-
-"""
-Generate text from Lovecraft's Dunwich Horror
-"""
-# get raw text as string
-with open("../readings/lovecraft-dunwich-horror.txt") as f:
-    text = f.read()
-
-# build the model
-text_model = markovify.Text(text)
-
-# print five randomly-generated sentences
-for i in range(5):
-    print text_model.make_sentence()
-
-"""
-Generate text from Petronius' Satyricon
-"""
-# get raw text as string
-with open("../readings/satyricon.txt") as f:
-    text = f.read()
-
-# build the model
-text_model = markovify.Text(text)
-
-# print five randomly-generated sentences
-for i in range(5):
-    print text_model.make_sentence()
-
-"""
 Combine text from Lovecraft's Dunwich Horror and Petronius' Satyricon
 """
 # get raw text as string

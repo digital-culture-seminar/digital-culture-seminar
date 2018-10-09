@@ -36,6 +36,9 @@ in the College of Art and Design.
 **Syllabus** |
 [2018](digital-culture-syllabus-2018.pdf)
 
+**Organization** |
+https://github.com/digital-culture-seminar
+
 **Assignments** | [Projects](projects.md) | [Readings](readings.md) |
 [Jupyter Notebooks](https://mybinder.org/v2/gh/baharmon/digital-culture-seminar/master)
 
@@ -49,10 +52,10 @@ in the College of Art and Design.
 ## Sessions
 
 1. **Open culture**
-    1. Open source + [*Python: Hello World*](hello-world.md)
-    1. Open work + [*Python: lists & loops*](lists-and-loops.md)
-    1. Open science + [*Python: flow control*](flow-control.md)
-    1. Death of the Author + [*Python: Markov chains*](markov-chains.md)
+    1. Open source + [*Python: Hello World*](topics/hello-world.md)
+    1. Open work + [*Python: lists & loops*](topics/lists-and-loops.md)
+    1. Open science + [*Python: flow control*](topics/flow-control.md)
+    1. Death of the Author + [*Python: Markov chains*](topics/markov-chains.md)
 
 **Project** | [Poetry repository](projects.md#poetry-repository)
 
