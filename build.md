@@ -1,4 +1,3 @@
-
 Edit the Dockerfile and then
 build the Docker container on [binder](https://mybinder.org/).
 Set the GitHub repository to
