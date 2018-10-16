@@ -62,8 +62,8 @@ https://github.com/digital-culture-seminar
 1. **Digital humanities**
     1. Digital humanities + *Tools & resources*
     1. Topic modeling + *Topic modeling tools*
-    1. Digital poetry + *Poetry charrette*
-    1. Sonic art + *Poetry recordings*
+    1. Digital poetry + [*Python: export Markdown*](topics/markdown.md)
+    1. Sonic art + [*Python: audio*](topics/audio.md)
 
 **Project** | [Poetry generator](projects.md#poetry-generator)
 
