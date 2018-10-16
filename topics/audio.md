@@ -1,7 +1,8 @@
 # Contents
 1. [**Audio with Python**](#audio-with-python)
-    1. [Text to speech](#generate-short-sentences-from-a-poem)
-    2. [Recording audio](#recording-audio)
+    1. [Text to speech](#text-to-speech)
+    2. [Markov chain to speech](#markov-chain-to-speech)
+    3. [Recording audio](#recording-audio)
 
 
 # Text to speech
@@ -16,6 +17,9 @@ pip install gTTs
 Convert the text from your poem to speech with Python
 using [text-to-speech.py](\scripts\text-to-speech.py) as a guide.
 
+# Markov chain to speech
+Convert the text from your Markov chain generated poem to speech with Python
+using [markovify-to-speech.py](\scripts\markovify-to-speech.py) as a guide.
 
 # Recording audio
 Install [sounddevice](https://gtts.readthedocs.io/en/latest/)

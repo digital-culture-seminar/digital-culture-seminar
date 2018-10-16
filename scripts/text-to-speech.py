@@ -12,6 +12,12 @@ DEPENDENCIES: playsound and gTTs
 # import libraries
 from playsound import playsound
 from gtts import gTTS
-tts = gTTS(text='Hello world', lang='en')
+
+# text to speech
+tts = gTTS(text="Hello world", lang="en")
+
+# write audio file
 tts.save("hello-world.mp3")
-playsound('hello-world.mp3')
+
+# play audio file
+playsound("hello-world.mp3")
