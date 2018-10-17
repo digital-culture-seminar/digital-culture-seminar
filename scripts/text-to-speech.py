@@ -17,7 +17,7 @@ from gtts import gTTS
 tts = gTTS(text="Hello world", lang="en")
 
 # write audio file
-tts.save("hello-world.mp3")
+tts.save("../poems/hello-world.mp3")
 
 # play audio file
-playsound("hello-world.mp3")
+playsound("../poems/hello-world.mp3")
