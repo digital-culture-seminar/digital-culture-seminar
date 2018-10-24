@@ -32,3 +32,7 @@ pip install PySoundFile
 
 Read your poem aloud and record with Python
 using [record-audio.py](..\scripts\record-audio.py) as a guide.
+
+<audio controls>
+  <source src="..\poems\markovified-poem.mp3" type="audio/mpeg">
+</audio>
