@@ -68,7 +68,7 @@ https://github.com/digital-culture-seminar
 **Project** | [Poetry generator](projects.md#poetry-generator)
 
 1. **Generative art & design**
-    1. Death of the Architect + *Rhino: waveforms*
+    1. Death of the Architect + [*Rhino: waveforms*](topics/waveform.md)
     1. Automation + *Rhino: freeform modeling*
     1. Digital design + *Rhino: parametric modeling*
     1. Robotic art + *Arduino*

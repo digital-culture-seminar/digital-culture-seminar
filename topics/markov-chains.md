@@ -8,7 +8,7 @@
 # Markov chains
 Install [Markovify](https://github.com/jsvine/markovify).
 Start your script by importing the markovify library.
-Use [markov-chains.py](\scripts\markov-chains.py) as a guide.
+Use [markov-chains.py](/scripts/markov-chains.py) as a guide.
 
 ```python
 # import libraries

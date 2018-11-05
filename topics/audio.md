@@ -32,6 +32,3 @@ pip install PySoundFile
 
 Read your poem aloud and record with Python
 using [record-audio.py](..\scripts\record-audio.py) as a guide.
-
-After you commit and push your poem to GitHub,
-[play it](audio.html).
