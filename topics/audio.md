@@ -15,20 +15,20 @@ pip install gTTs
 ```
 
 Convert the text from your poem to speech with Python
-using [text-to-speech.py](\scripts\text-to-speech.py) as a guide.
+using [text-to-speech.py](..\scripts\text-to-speech.py) as a guide.
 
 # Markov chain to speech
 Convert the text from your Markov chain generated poem to speech with Python
-using [markovify-to-speech.py](\scripts\markovify-to-speech.py) as a guide.
+using [markovify-to-speech.py](..\scripts\markovify-to-speech.py) as a guide.
 
 # Recording audio
-Install [sounddevice](https://gtts.readthedocs.io/en/latest/)
+Install [sounddevice](https://python-sounddevice.readthedocs.io/)
 and [PySoundFile](https://pysoundfile.readthedocs.io/en/0.9.0/)
 with *pip*.
 ```
-pip install python-sounddevice
+pip install sounddevice
 pip install PySoundFile
 ```
 
 Read your poem aloud and record with Python
-using [record-audio.py](\scripts\record-audio.py) as a guide.
+using [record-audio.py](..\scripts\record-audio.py) as a guide.

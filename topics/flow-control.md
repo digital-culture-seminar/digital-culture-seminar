@@ -12,7 +12,7 @@ then open today's Jupyter notebook `flow-control.ipynb`
 and follow the directions here or there to start programming!
 Or you can write your own Python script
 in an integrated development environment (IDE) like Spyder
-using [flow-control.py](\scripts\flow-control.py) as a guide.
+using [flow-control.py](/scripts/flow-control.py) as a guide.
 
 ## Conditional statements
 Let's start by writing a the opening lines of our story.
